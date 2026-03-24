@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intime-api/InTime.intime-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/intime-api/InTime.intime-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intime-core/InTime.intime-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/intime-core/InTime.intime-core.main.iml" />
+    </modules>
+  </component>
+</project>

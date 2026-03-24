@@ -1,0 +1,28 @@
+allprojects {
+    group = 'net.rj.intime'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+        maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+        maven { url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+
+    tasks.withType(ProcessResources).configureEach {
+        filteringCharset = 'UTF-8'
+    }
+}

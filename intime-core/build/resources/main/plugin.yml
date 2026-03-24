@@ -1,0 +1,17 @@
+name: InTimeCore
+version: 1.0.0
+main: net.rj.intime.core.InTimeCorePlugin
+api-version: "1.20"
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  intime:
+    description: InTime core command
+    usage: /intime
+
+permissions:
+  intime.admin:
+    default: op
+  intime.use:
+    default: true

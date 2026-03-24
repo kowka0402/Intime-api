@@ -1,0 +1,4 @@
+rootProject.name = 'InTime'
+
+include('intime-api')
+include('intime-core')
